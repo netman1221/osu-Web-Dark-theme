@@ -1,0 +1,30 @@
+.osu-layout__row--forum-post-create,
+.osu-layout__row--page,
+.osu-layout__row--page-compact,
+.osu-layout__row--page-profile {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.osu-layout__section--extra {
+    background-color: rgba(0, 0, 0, 0.45);
+}
+.user-bar-container {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+body,
+.profile-basic,
+.profile-tab,
+.action-forum-forums-show h2 {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: "Exo 2", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+html {
+    background-image: url(/images/backgrounds/page-light.png);
+}
+.topics li:hover::before {
+    transition: none;
+    background: #000;
+}
+.bbcode-spoilerbox__link {
+    background-color: transparent;
+    color: #29b;
+}
